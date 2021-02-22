@@ -1,2 +1,4 @@
 
-# Trabajo Practico - Generala - Grupo 7!! 
+# Trabajo Practico - Generala
+
+Realizado por el grupo 7!! 
