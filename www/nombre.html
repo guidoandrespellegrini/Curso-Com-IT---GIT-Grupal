@@ -1,0 +1,164 @@
+<!-- We don't need a full layout in this file because this page will be parsed with Ajax.  -->
+<div class="page" data-name="nombre">
+
+    <div class="navbar">
+        <div class="navbar-bg"></div>
+        <div class="navbar-inner">
+            <div class="title">Anotador</div>
+            <a href="#" id="btnVolver" class="right"><i class="icon icon-back"></i></a>
+            
+        </div>
+    </div>
+
+    <div class="page-content">
+
+        <div class="data-table">
+            <table>
+
+                <thead>
+                    <tr>
+                        <th class="label-cell">PUNTAJE</th>
+                        <th id="jug1an" class="text-cell c2"></th>
+                        <th id="jug2an" class="text-cell c2"></th>
+                    </tr>
+                </thead>
+
+                <tbody id="menuOpciones">
+
+                    <tr>
+                        <td class="label-cell">UNO</td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaNum eq1" data-nombre="DADO UNO" data-sheet=".my-sheet-numeros" href="#" id="j11">-</a> </td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaNum eq2" data-nombre="DADO UNO" data-sheet=".my-sheet-numeros" href="#" id="j21">-</a> </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label-cell">DOS</td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaNum eq1" data-nombre="DADO DOS" data-sheet=".my-sheet-numeros" href="#" id="j12">-</a> </td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaNum eq2" data-nombre="DADO DOS" data-sheet=".my-sheet-numeros" href="#" id="j22">-</a> </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label-cell">TRES</td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaNum eq1" data-nombre="DADO TRES" data-sheet=".my-sheet-numeros" href="#" id="j13">-</a> </td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaNum eq2" data-nombre="DADO TRES" data-sheet=".my-sheet-numeros" href="#" id="j23">-</a> </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label-cell">CUATRO</td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaNum eq1" data-nombre="DADO CUATRO" data-sheet=".my-sheet-numeros" href="#" id="j14">-</a> </td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaNum eq2" data-nombre="DADO CUATRO" data-sheet=".my-sheet-numeros" href="#" id="j24">-</a> </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label-cell">CINCO</td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaNum eq1" data-nombre="DADO CINCO" data-sheet=".my-sheet-numeros" href="#" id="j15">-</a> </td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaNum eq2" data-nombre="DADO CINCO" data-sheet=".my-sheet-numeros" href="#" id="j25">-</a> </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label-cell">SEIS</td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaNum eq1" data-nombre="DADO SEIS" data-sheet=".my-sheet-numeros" href="#" id="j16">-</a> </td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaNum eq2" data-nombre="DADO SEIS" data-sheet=".my-sheet-numeros" href="#" id="j26">-</a> </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label-cell">ESCALERA</td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaJug eq1" data-nombre="ESCALERA" data-sheet=".my-sheet-juegos" href="#" id="j1e">-</a> </td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaJug eq2" data-nombre="ESCALERA" data-sheet=".my-sheet-juegos" href="#" id="j2e">-</a> </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label-cell">FULL</td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaJug eq1" data-nombre="FULL" data-sheet=".my-sheet-juegos" href="#" id="j1f">-</a> </td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaJug eq2" data-nombre="FULL" data-sheet=".my-sheet-juegos" href="#" id="j2f">-</a> </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label-cell">POKER</td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaJug eq1" data-nombre="POKER" data-sheet=".my-sheet-juegos" href="#" id="j1p">-</a> </td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaJug eq2" data-nombre="POKER" data-sheet=".my-sheet-juegos" href="#" id="j2p">-</a> </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label-cell">GENERALA</td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaJug eq1" data-nombre="GENERALA" data-sheet=".my-sheet-juegos" href="#" id="j1g">-</a> </td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaJug eq2" data-nombre="GENERALA" data-sheet=".my-sheet-juegos" href="#" id="j2g">-</a> </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label-cell">D.GENERALA</td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaJug eq1" data-nombre="D.GENERALA" data-sheet=".my-sheet-juegos" href="#" id="j1dg">-</a> </td>
+                        <td class="text-cell c1"> <a class="sheet-open sumaJug eq2" data-nombre="D.GENERALA" data-sheet=".my-sheet-juegos" href="#" id="j2dg">-</a> </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label-cell">TOTAL</td>
+                        <td class="text-cell c1"> <a class="desplegable" href="#" id="pj1">0</a> </td>
+                        <td class="text-cell c1"> <a class="desplegable" href="#" id="pj2">0</a> </td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+
+        <!-- Opciones de los numeros -->
+        <div class="sheet-modal my-sheet-numeros">
+            <div class="toolbar">
+                <div class="toolbar-inner">
+                    <div class="block">
+                        <div class="left dado"></div>
+                    </div>
+                    <div class="right"><a class="link sheet-close" href="#">Volver</a></div>
+                </div>
+            </div>
+            <div class="sheet-modal-inner">
+                <div class="block">
+                    <div class="list links-list">
+                        <ul>
+                            <li><a class="accNum link sheet-close" href="#">1</a></li>
+                            <li><a class="accNum link sheet-close" href="#">2</a></li>
+                            <li><a class="accNum link sheet-close" href="#">3</a></li>
+                            <li><a class="accNum link sheet-close" href="#">4</a></li>
+                            <li><a class="accNum link sheet-close" href="#">5</a></li>
+                            <li><a class="accNum link sheet-close" href="#">Tachar</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Opciones de los juegos -->
+        <div class="sheet-modal my-sheet-juegos">
+            <div class="toolbar">
+                <div class="toolbar-inner">
+                    <div class="block">
+                        <div class="left dado"></div>
+                    </div>
+                    <div class="right"><a class="link sheet-close" href="#">Volver</a></div>
+                </div>
+            </div>
+            <div class="sheet-modal-inner">
+                <div class="block">
+                    <div class="list links-list">
+                        <ul>
+                            <li><a class="accJug link sheet-close" href="#">Servido</a></li>
+                            <li><a class="accJug link sheet-close" href="#">No Servido</a></li>
+                            <li><a class="accJug link sheet-close" href="#">Tachar</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="toolbar toolbar-bottom">
+        <div class="toolbar-inner">
+
+        <a href="#" id="terminar" class="link">Terminar</a>
+        <a href="#" id="limpiar" class="link">Limpiar</a>
+
+        </div>
+    </div> 
+
+</div>
