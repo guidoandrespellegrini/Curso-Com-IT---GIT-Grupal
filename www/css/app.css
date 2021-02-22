@@ -141,8 +141,7 @@
 
 /*AJUSTAMOS LA ALTURA DEL SHEET NUMEROS*/
 .my-sheet-numeros {
-  --f7-sheet-height: 100vh;
-
+  --f7-sheet-height: 400px;
   --f7-sheet-border-color: transparent;
   --f7-sheet-transition-duration: 300ms;
   --f7-sheet-push-border-radius: 10px;
@@ -150,11 +149,9 @@
   --f7-sheet-bg-color: #fff;
 }
 
-
 /*AJUSTAMOS LA ALTURA DEL SHEET JUEGOS*/
 .my-sheet-juegos {
-  --f7-sheet-height: 100vh;
-
+  --f7-sheet-height: 230px;
   --f7-sheet-border-color: transparent;
   --f7-sheet-transition-duration: 300ms;
   --f7-sheet-push-border-radius: 10px;
